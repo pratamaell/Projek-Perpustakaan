@@ -16,6 +16,11 @@
   <link rel="stylesheet" href="<?= base_url('AdminLTE') ?>/dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition login-page">
+<div class="login-logo">
+    <a href="<?= base_url('') ?>"><b>Perpustakaan</b>
+        <br><h4><b>Neper</b></h4>
+    </a>
+  </div>
 
   
   <?php

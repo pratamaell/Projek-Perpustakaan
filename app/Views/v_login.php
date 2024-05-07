@@ -1,15 +1,11 @@
-<div class="login-logo">
-    <a href="<?= base_url('') ?>"><b>Perpustakaan</b>
-        <br><h4><b>Neper</b></h4>
-    </a>
-  </div>
+
   <div class="row">
 
     <div class="login-box">
         <div class="col-lg-12 col-12">
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>User</h3>
+                <h3><?= $judul ?></h3>
 
                 <p>Login untuk  User</p>
               </div>

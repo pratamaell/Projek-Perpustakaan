@@ -1,7 +1,9 @@
+
+
 <div class="login-box">
 <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="3" class="h1">Login User</a>
+      <a href="3" class="h2">Login User</a>
     </div>
     <div class="card-body">
       <?php 

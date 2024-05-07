@@ -1,0 +1,55 @@
+INFO - 2024-05-06 02:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-06 02:54:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', 'root', 'perpustakaan', 3306, '', 0)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAuth.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\Auth.php(52): App\Models\ModelAuth->LoginUser('refan123@gmail....', 'Refan fad')
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Auth->CekLoginUser()
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAuth.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\Auth.php(52): App\Models\ModelAuth->LoginUser('refan123@gmail....', 'Refan fad')
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Auth->CekLoginUser()
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#12 {main}
+CRITICAL - 2024-05-06 02:54:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: POST, Route: Auth/CekLoginUser]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\ModelAuth.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(52): App\Models\ModelAuth->LoginUser('refan123@gmail.com', 'Refan fad')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginUser()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-06 02:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-06 02:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-06 02:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-06 07:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

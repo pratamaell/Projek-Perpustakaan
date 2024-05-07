@@ -83,4 +83,11 @@ class Auth extends BaseController
         session()->setFlashdata('pesan','Logout Sukses !');
          return redirect()->to(base_url('Auth/LoginUser'));
     }
+    public function Register(){
+        $data = [
+            'judul' => 'Daftar Anggota',
+            'page' => 'v_daftar_anggota',
+        ];
+        return view('v_template_login',$data);
+    }
 }
