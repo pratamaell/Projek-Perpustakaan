@@ -90,4 +90,106 @@ class Auth extends BaseController
         ];
         return view('v_template_login',$data);
     }
+    
+    public function Daftar(){ 
+        if ($this->validate([
+            'nama' => [
+                'label' => 'Nama',
+                'rules' => 'required',
+                'errors' => [
+                    'required'=>'{field} masih kosong !',
+                    
+                ]
+            ],
+            'jk' => [
+                'label' => 'Jk',
+                'rules' => 'required',
+                'errors' => [
+                    'required'=>'{field} Jenis kelamin harus dipilih !',
+                    
+                ]
+            ],
+           
+            'telp' => [
+                'label' => 'Telp',
+                'rules' => 'required',
+                'errors' => [
+                    'required'=>'{field} masih kosong !',
+                    
+                ]
+            ],
+            'alamat' => [
+                'label' => 'Alamat',
+                'rules' => 'required',
+                'errors' => [
+                    'required'=>'{field} masih kosong !',
+                    
+                ]
+            ],
+            'role' => [
+                'label' => 'Role',
+                'rules' => 'required',
+                'errors' => [
+                    'required'=>'{field} role harus dipilih harus dipilih !',
+                    
+                ]
+            ],
+           
+            'email' => [
+                'label' => 'E-Mail',
+                'rules' => 'required|is_unique[tb_user.email]|valid_email',
+                'errors' => [
+                    'required' => '{field} masih kosong !',
+                    'is_unique' => '{field} telah digunakan',
+                    'valid_email' => '{field} Harus format E-Mail !',
+                ]
+            ],
+            'username' => [
+                'label' => 'Username',
+                'rules' => 'required|is_unique[tb_user.username]',
+                'errors' => [
+                    'required' => '{field} masih kosong !',
+                    'is_unique' => '{field} Username telah digunakan',
+                ]
+            ],
+            'password' => [
+                'label' => 'Password',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} masih kosong !',
+                   
+                ]
+            ],
+            'ulangi_password' => [
+                'label' => 'Ulangi password',
+                'rules' => 'required|matches[password]',
+                'errors' => [
+                    'required' => '{field} masih kosong !',
+                    'matches' => '{field} password tidak sama !',
+                   
+                ]
+            ],
+        ])) {
+            $data=[
+                'id' => $this->request->getPost('id_kelas'),
+                'nama' => $this->request->getPost('nama'),
+                'jk' => $this->request->getPost('jk'),
+                'telp' => $this->request->getPost('telp'),
+                'alamat' => $this->request->getPost('alamat'),
+                'role' => $this->request->getPost('role'),
+                'username' => $this->request->getPost('username'),
+                'email' => $this->request->getPost('email'),
+                'password' => $this->request->getPost('password')
+            ];
+            $this->ModelAuth->Daftar($data);
+            session()->setFlashdata('pesan', 'Akun berhasil ditambahkan');
+            return redirect()->to(base_url('Auth/Register'));
+
+        }else{
+           session()->setFlashdata('errors', \Config\Services::validation()->getErrors() );
+            return redirect()->to(base_url('Auth/Register'))->withInput('validation', \Config\Services::validation());
+        }
+    }
+    
 }
+
