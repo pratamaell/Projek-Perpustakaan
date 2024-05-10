@@ -1057,3 +1057,1354 @@ WARNING - 2024-05-09 08:13:15 --> [DEPRECATED] Creation of dynamic property App\
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
 INFO - 2024-05-09 08:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:26:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:29:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:29:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:29:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+WARNING - 2024-05-09 08:29:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:30:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+WARNING - 2024-05-09 08:30:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:31:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 08:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:32:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:32:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:32:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:32:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:34:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+WARNING - 2024-05-09 08:34:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+WARNING - 2024-05-09 08:34:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+WARNING - 2024-05-09 08:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+WARNING - 2024-05-09 08:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:34:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+WARNING - 2024-05-09 08:34:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+WARNING - 2024-05-09 08:34:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-09 08:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-09 08:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$ModelAuth is deprecated in APPPATH\Controllers\Auth.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:39:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:39:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:40:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:40:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:43:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:43:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:43:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:43:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:43:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:43:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:44:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:44:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:46:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:46:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:46:30 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:46:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:46:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:46:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+CRITICAL - 2024-05-09 14:47:59 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+[Method: GET, Route: /]
+in APPPATH\Views\v_template.php on line 95.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 4 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:52:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:52:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:52:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:52:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:52:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:52:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:52:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:52:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:52:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:52:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:52:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:52:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:52:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:52:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:53:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:53:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:53:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:53:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+ERROR - 2024-05-09 14:53:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'perpustakaan', 3306, '', 0)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp1\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\web-perpus-fixx\app\Views\v_template.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(234): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\web-perpus-fixx\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp1\htdocs\web-perpus-fixx\system\Common.php(1171): CodeIgniter\View\View->render('v_template', Array, true)
+#7 C:\xampp1\htdocs\web-perpus-fixx\app\Controllers\Home.php(13): view('v_template', Array)
+#8 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp1\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp1\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp1\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp1\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdoc...')
+#15 {main}
+CRITICAL - 2024-05-09 14:53:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 3 APPPATH\Views\v_template.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+CRITICAL - 2024-05-09 15:07:34 --> InvalidArgumentException: "perpustakaan" is not a valid database connection group.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 APPPATH\Views\v_template.php(22): CodeIgniter\Database\Config::connect('perpustakaan')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+CRITICAL - 2024-05-09 15:08:52 --> InvalidArgumentException: "tb_web" is not a valid database connection group.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 APPPATH\Views\v_template.php(22): CodeIgniter\Database\Config::connect('tb_web')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')
+CRITICAL - 2024-05-09 15:09:17 --> InvalidArgumentException: "group_name" is not a valid database connection group.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 APPPATH\Views\v_template.php(22): CodeIgniter\Database\Config::connect('group_name')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp1\\htdocs\\web-perpus-fixx\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp1\\htdocs\\web-perpus-fixx\\public\\index.php')

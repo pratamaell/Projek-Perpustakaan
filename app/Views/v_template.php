@@ -18,14 +18,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="<?= base_url('AdminLTE') ?>/dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition layout-top-nav">
+  <?php 
+  $db = \Config\Database::connect();
+  $web= $db->table('tb_web')->where('id_web', '1')->get()->getRowArray();
+        
+  ?>
 <div class="wrapper">
 
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
     <div class="container">
       <a href="../../index3.html" class="navbar-brand">
-        <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Perpustakaan</span>
+        <img src="<?= base_url('img/'. $web['logo']) ?>" alt="AdminLTE Logo" class="brand-image elevation-0" >
+        <span class="brand-text font-weight-light"><b>Perpustakaan</b></span>
       </a>
 
       <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +44,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="index3.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="index3.html" class="nav-link">Buku</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">E-book</a>
           </li>
           <li class="nav-item dropdown">
             <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Penerbit</a>
@@ -49,19 +57,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <!-- End Level two -->
             </ul>
           </li>
+           <li class="nav-item">
+            <a href="#" class="nav-link">About-me</a>
+          </li>
         </ul>
 
-        <!-- SEARCH FORM -->
-        <form class="form-inline ml-0 ml-md-3">
-          <div class="input-group input-group-sm">
-            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-navbar" type="submit">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
-          </div>
-        </form>
+        
       </div>
 
       <!-- Right navbar links -->
@@ -84,17 +85,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0"> Top Navigation <small>Example 3.0</small></h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item"><a href="#">Layout</a></li>
-              <li class="breadcrumb-item active">Top Navigation</li>
-            </ol>
-          </div><!-- /.col -->
+        <div class="row">
+             <div class="navbar-brand">
+                <div class="row mb-2">
+                  <div class="col-sm-">
+               
+        <h1 class="m-0"><b><?= $web['nama_sekolah']?></b></h1>
+          
+                 </div>
+               </div>
+            </div>
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
