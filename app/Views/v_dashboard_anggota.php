@@ -17,9 +17,9 @@
               <div class="card-header">
                 <h3 class="card-title">data <?= $judul ?></h3>
                 <div class="card-tools">
-                  <button type="button" class="btn btn-primary btn-flat btn-sm" data-toggle="modal" data-target="modal-sm">
+                  <a href="<?= base_url('DashboardAnggota/EditProfil')?>" class="btn btn-primary btn-flat btn-sm">
                     <i class="fas fa-edit"></i>Edit Profile
-                  </button>
+                  </a>
                 </div>
                 </div>
                 <div class="card-body">
@@ -29,6 +29,11 @@
                         <th width="200px">Id</th>
                         <th width="200px">:</th>
                         <td><?= $anggota['id'] ?></td>
+                    </tr>
+                    <tr>
+                        <th>Nama</th>
+                        <th>:</th>
+                        <td><?= $anggota['nama'] ?></td>
                     </tr>
                     <tr>
                         <th>Username</th>

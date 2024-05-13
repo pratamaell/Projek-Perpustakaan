@@ -1,9 +1,14 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\ModelAdmin;
 
 class Admin extends BaseController
 {
+    public function __construct(){
+        
+        $this->ModelAdmin = new ModelAdmin;
+     }
     public function index(): string
     {
         $data = [
