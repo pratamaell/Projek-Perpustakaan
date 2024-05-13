@@ -52,9 +52,10 @@ class Auth extends BaseController
             $cek_login = $this->ModelAuth->LoginUser($email,$password);
             if ($cek_login) {
                 //jika login berhasil
+                session()->set('id',$cek_login['id']);
                 session()->set('nama',$cek_login['nama']);
                 session()->set('email',$cek_login['email']);
-                session()->set('role',$cek_login['role']);
+                session()->set('petugas',$cek_login['role']);
                 return redirect()->to(base_url('Admin'));
             }else {
                 //jika login gagal
@@ -83,6 +84,14 @@ class Auth extends BaseController
         session()->setFlashdata('pesan','Logout Sukses !');
          return redirect()->to(base_url('Auth/LoginUser'));
     }
+    public function LogOutAnggota(){
+        session()->remove('id');
+        session()->remove('username');
+        session()->remove('role');
+        session()->setFlashdata('pesan','Logout Sukses !');
+         return redirect()->to(base_url('Auth/LoginAnggota'));
+    }
+    
     public function Register(){
         $data = [
             'judul' => 'Daftar Anggota',
@@ -171,7 +180,6 @@ class Auth extends BaseController
             ],
         ])) {
             $data=[
-                'id' => $this->request->getPost('id_kelas'),
                 'nama' => $this->request->getPost('nama'),
                 'jk' => $this->request->getPost('jk'),
                 'telp' => $this->request->getPost('telp'),
@@ -188,6 +196,45 @@ class Auth extends BaseController
         }else{
            session()->setFlashdata('errors', \Config\Services::validation()->getErrors() );
             return redirect()->to(base_url('Auth/Register'))->withInput('validation', \Config\Services::validation());
+        }
+    }
+   
+    public function CekLoginAnggota(){
+        if ($this->validate([
+            'username' => [
+                'label' => 'username',
+                'rules' => 'required',
+                'errors' => [
+                    'required'=>'{field} masih kosong !',
+                ]
+            ],
+            'password' => [
+                'label' => 'Password',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} masih kosong !',
+                ]
+            ],
+        ])) {
+            //jika entry valid
+            $username = $this->request->getPost('username');
+            $password = $this->request->getPost('password');
+            $cek_login = $this->ModelAuth->LoginAnggota($username,$password);
+            if ($cek_login) {
+                //jika login berhasil
+                session()->set('id',$cek_login['id']);
+                session()->set('username',$cek_login['username']);
+                session()->set('role','Anggota');
+                return redirect()->to(base_url('DashboardAnggota'));
+            }else {
+                //jika login gagal
+                session()->setFlashdata('pesan','Username atau Password salah !');
+                return redirect()->to(base_url('Auth/LoginAnggota'));
+            }
+        }else {
+            //jika entry tidak valid
+            session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
+            return redirect()->to(base_url('Auth/LoginAnggota'));
         }
     }
     

@@ -18,16 +18,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="<?= base_url('AdminLTE') ?>/dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
-  <?php
-  $db = \Config\Database::connect();
-  $web = $db->table('tbl_web')
-    ->where('id_web', '1')
-    ->get()->getRowArray();
-
-  $user = $db->table('tb_user')
-    ->where('id' .session()->get('id'))
-    ->get()->getRowArray();
-  ?>
 <div class="wrapper">
 
   <!-- Navbar -->
@@ -38,19 +28,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <h1><b><?= $web['nama_sekolah'] ?></b></h1>
+        <a href="index3.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
       </li>
     </ul>
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
+      
+
+      
+      
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('Auth/LogOut') ?>" >
+        <a class="nav-link" href="<?= base_url('Auth/LogOutAnggota') ?>" >
           <i class="fas fa-sign-out-alt"></i>Logout
         </a>
       </li>
@@ -62,8 +59,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="<?= base_url('logo/' .$web['logo']) ?>"  class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Perpustakaan</span>
+      <img src="<?= base_url('AdminLTE') ?>/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
     <!-- Sidebar -->
@@ -74,7 +71,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <img src="<?= base_url('AdminLTE') ?>/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?= $user['nama'] ?></a>
+          <a href="#" class="d-block">Alexander Pierce</a>
         </div>
       </div>
 
@@ -101,38 +98,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="nav-item <?= $menu == 'masterdata' ? 'menu-open': ''  ?>">
-            <a href="<?= base_url('Admin') ?>" class="nav-link <?= $menu == 'masterdata' ? 'active': ''  ?>">
-              <i class="nav-icon fas fa-th"></i>
-              <p>Master Data<i class="right fas fa-angle-left"></i></p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Buku</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link <?= $submenu == 'kategori' ? 'active': ''  ?>">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Kategori</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link<?= $submenu == 'rak' ? 'active': ''  ?> ">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Rak Buku</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Penerbit</p>
-                </a>
-              </li>
-            </ul>
-          </li>
+         
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>

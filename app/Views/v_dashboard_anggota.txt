@@ -1,0 +1,25 @@
+<div class="col-md-3">
+<div class="card card-primary card-outline">
+              <div class="card-body box-profile">
+                <div class="text-center">
+                  <img class="img-fluid "
+                       src="<?= base_url('img/'.$anggota['foto'])?>" width="250px">
+                </div>
+
+                <div class="text-center">
+                <h5><?= $anggota['nama'] ?></h5>
+                <h3 class="profile-username text-center"><?= $anggota['alamat'] ?></h3>
+
+                <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+              </div>
+              </div>
+</div>
+</div>
+<div class="col-md-9">
+    <div class="card card-outline card-primary">
+        <div class="card-header">
+            <h3 class="card-title"></h3>
+        </div>
+    </div>
+</div>
+              <!-- /.card-body -->
