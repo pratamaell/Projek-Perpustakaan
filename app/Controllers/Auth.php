@@ -55,7 +55,7 @@ class Auth extends BaseController
                 session()->set('id',$cek_login['id']);
                 session()->set('nama',$cek_login['nama']);
                 session()->set('email',$cek_login['email']);
-                session()->set('petugas',$cek_login['role']);
+                session()->set('role',$cek_login['role']);
                 return redirect()->to(base_url('Admin'));
             }else {
                 //jika login gagal
