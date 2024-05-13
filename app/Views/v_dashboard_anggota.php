@@ -15,7 +15,7 @@
 <div class="col-md-9">
             <div class="card card-outline card-primary">
               <div class="card-header">
-                <h3 class="card-title">Data <?= $judul ?></h3>
+                <h3 class="card-title">data <?= $judul ?></h3>
                 <div class="card-tools">
                   <button type="button" class="btn btn-primary btn-flat btn-sm" data-toggle="modal" data-target="modal-sm">
                     <i class="fas fa-edit"></i>Edit Profile

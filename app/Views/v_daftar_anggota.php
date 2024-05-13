@@ -19,18 +19,27 @@
         </ul>
        </div>
       <?php } ?>
+      <?php
+      if(session()->getFlashdata('pesan')){
+        echo' <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <h5><i class="icon fas fa-check"></i>';
+        echo session()->getFlashdata('pesan');
+        echo '</h5></div>';
+      }
+      ?>
      
     
     <?php echo form_open('Auth/Daftar')?>
     <div class="row">
     <div class="col-sm-6">
-    <label>Nama</label>
+    
         <div class="form-group mb-3">
           <input type="text" name="nama" class="form-control" value="<?= old('nama') ?>" placeholder="Nama">
         </div>
     </div>
     <div class="col-sm-6">
-    <label>No Telp</label>
+    
         <div class="form-group mb-3">
         <input type="text" name="telp" class="form-control" value="<?= old('telp') ?>" placeholder="No telepon">
         </div>
@@ -38,18 +47,18 @@
     <div class="col-sm-6">
     <label>Jenis Kelamin</label><br>
     <select name="jk" class="form-control">
-      <option value="laki-laki">laki-laki</option>
+      <option value="laki-laki" place>laki-laki</option>
       <option value="perempuan">perempuan</option>
     </select>
     </div>
     
     <div class="col-sm-6">
-    <label>Alamat</label>
+    
         <div class="form-group mb-3">
         <input type="text" name="alamat" class="form-control" value="<?= old('alamat') ?>" placeholder="Alamat">
         </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 mb-3">
     <label>Role</label><br>
     <select name="role" class="form-control">
       <option value="petugas">Petugas</option>
@@ -58,28 +67,28 @@
     </div>
     
     <div class="col-sm-6">
-    <label>Email</label>
+    
         <div class="form-group mb-3">
         <input type="text" name="email" class="form-control" value="<?= old('email') ?>" placeholder="Email">
         </div>
     </div>
     <div class="col-sm-6">
-    <label>Username</label>
-        <div class="form-group mb-3">
+    
+        <div class="form-group mb-3 m">
         <input type="text" name="username" class="form-control"value="<?= old('username') ?>" placeholder="username">
         </div>
     
     </div>
     <div class="col-sm-6">
-    <label>Password</label>
-        <div class="form-group mb-3">
+   
+        <div class="form-group mb-4">
           <input type="password" class="form-control" name="password" value="<?= old('password') ?>" placeholder="password">
         </div>
     </div>
     <div class="col-sm-12">
-    <label>Masukkan ulang password</label>
+    
         <div class="form-group mb-3">
-          <input type="password" class="form-control" name="ulangi_password" value="<?= old('password') ?>"placeholder="password">
+          <input type="password" class="form-control" name="ulangi_password" value="<?= old('password') ?>"placeholder="ulangi password">
         </div>
      </div>
     
