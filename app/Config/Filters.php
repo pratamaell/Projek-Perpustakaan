@@ -35,6 +35,7 @@ class Filters extends BaseFilters
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
         'filteruser'    => \App\Filters\FilterUser::class,
+        'filteranggota'    => \App\Filters\FilterAnggota::class,
     ];
 
     /**
@@ -77,7 +78,14 @@ class Filters extends BaseFilters
                     'Home', 'Home/*',
                     '/'
                 ]
-            ]
+                ],
+                'filteranggota' => [
+                    'except' => [
+                        'Auth', 'Auth/*',
+                        'Home', 'Home/*',
+                        '/'
+                    ]
+                ]
         ],
         'after' => [
             'filteruser' => [
@@ -87,7 +95,15 @@ class Filters extends BaseFilters
                     '/',
                     'Admin', 'Admin/*'
                 ]
-            ]
+                ],
+                'filteranggota' => [
+                    'except' => [
+                        'Auth', 'Auth/*',
+                        'Home', 'Home/*',
+                        '/',
+                        'DashboardAnggota', 'DashboardAnggota/*',
+                    ]
+                ]
         ],
     ];
 

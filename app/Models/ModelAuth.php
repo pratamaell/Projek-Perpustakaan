@@ -16,4 +16,11 @@ class ModelAuth extends Model
     public function Daftar($data){
         $this->db->table('tb_user')->insert($data);
     }
+    public function LoginAnggota($username, $password){
+        return $this->db->table('tb_user')
+        ->where([
+            'username' => $username,
+            'password' => $password,
+        ])->get()->getRowArray();
+    }
 }
