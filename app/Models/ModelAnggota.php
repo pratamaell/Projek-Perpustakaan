@@ -10,9 +10,15 @@ class ModelAnggota extends Model
         return $this->db->table('tb_user')
             ->where('id',$id) ->get()->getRowArray();
     }
-    public function EditData($data){
-        {
-            $this->db->table('tb_user')->update($data);
-        }
+    public function EditProfil($data)
+    {
+        $this->db->table('tb_user')
+        ->where('id', $data['id'])
+            ->update($data);
+    }
+    public function DetailData($id_anggota){
+        return $this->db->table('tb_user')
+        ->where('id', $id_anggota)
+        ->get()->getRowArray();
     }
 }

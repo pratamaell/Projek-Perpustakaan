@@ -18,16 +18,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="<?= base_url('AdminLTE') ?>/dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
-  <?php
-  $db = \Config\Database::connect();
-  $web = $db->table('tbl_web')
-    ->where('id_web', '1')
-    ->get()->getRowArray();
-
-  $user = $db->table('tb_user')
-    ->where('id' .session()->get('id'))
-    ->get()->getRowArray();
-  ?>
 <div class="wrapper">
 
   <!-- Navbar -->
@@ -38,7 +28,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <h1><b><?= $web['nama_sekolah'] ?></b></h1>
+        <h1><b></b></h1>
       </li>
     </ul>
 
@@ -62,7 +52,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="<?= base_url('logo/' .$web['logo']) ?>"  class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="  class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Perpustakaan</span>
     </a>
 
@@ -74,7 +64,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <img src="<?= base_url('AdminLTE') ?>/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?= $user['nama'] ?></a>
+          <a href="#" class="d-block></a>
         </div>
       </div>
 

@@ -33,7 +33,7 @@
                     <div class="col-sm-12">
                         <div class="form-group">
                             <label>Foto</label>
-                            <img src="<?= base_url('foto/'.$anggota['foto'])?>" id="gambar_load" class="img-fluid" width="200px" height="200px">
+                            <img src="<?= base_url('foto/'. $anggota['foto'])?>" id="gambar_load" class="img-fluid" width="200px" height="200px">
                         </div>
                     </div>
                     <div class="col-sm-12">
@@ -53,7 +53,7 @@
                     <div class="col-sm-12">
                       <div class="from-group">
                       <label>Jenis Kelamin</label><br>
-                        <select name="jk" class="form-control  value="<?= $anggota['jk']?>"><?= $anggota['jk']?>">
+                        <select name="jk" class="form-control"  value="<?= $anggota['jk']?>"><?= $anggota['jk']?>">
                        
                         <option value="laki-laki">laki-laki</option>
                         <option value="perempuan">perempuan</option>

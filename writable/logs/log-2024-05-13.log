@@ -1597,3 +1597,255 @@ in SYSTEMPATH\Database\BaseConnection.php on line 913.
 =======
 16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\web-perpus-fixx\\public\\index.php')
 >>>>>>> a08d8f917ae3fd773ef8ff9bce312a65ebb3eb45
+INFO - 2024-05-13 04:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 04:25:48 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: DashboardAnggota/UpdateProfile]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DashboardAnggota.php(111): CodeIgniter\Model->__call('DetailData', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-13 04:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-13 04:32:10 --> mysqli_sql_exception: Unknown column 'verifikasi' in 'field list' in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `tb_user...', 0)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_user...')
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_user...')
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_user...', Array, false)
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAnggota.php(17): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\DashboardAnggota.php(130): App\Models\ModelAnggota->EditData(Array)
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#13 {main}
+CRITICAL - 2024-05-13 04:32:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'verifikasi' in 'field list'
+[Method: POST, Route: DashboardAnggota/UpdateProfile]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_user` SET `id` = :id.1:, `nama` = :nama:, `jk` = :jk:, `telp` = :telp:, `alamat` = :alamat:, `role` = :role:, `username` = :username:, `password` = :password:, `verifikasi` = :verifikasi:, `foto` = :foto:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\ModelAnggota.php(17): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\DashboardAnggota.php(130): App\Models\ModelAnggota->EditData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')
+CRITICAL - 2024-05-13 04:32:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'verifikasi' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_user` SET `id` = \'1\', `nama` = \'sifa\', `jk` = \'laki-laki\', `telp` = \'0895386490035\', `alamat` = \'cirebon\', `role` = NULL, `username` = \'fadref\', `password` = \'refan2704\', `verifikasi` = \'1\', `foto` = \'1715574730_d911de99ab0a87e60c4e.jpg\'
+WHERE `id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_user` SET `id` = \'1\', `nama` = \'sifa\', `jk` = \'laki-laki\', `telp` = \'0895386490035\', `alamat` = \'cirebon\', `role` = NULL, `username` = \'fadref\', `password` = \'refan2704\', `verifikasi` = \'1\', `foto` = \'1715574730_d911de99ab0a87e60c4e.jpg\'
+WHERE `id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_user` SET `id` = :id.1:, `nama` = :nama:, `jk` = :jk:, `telp` = :telp:, `alamat` = :alamat:, `role` = :role:, `username` = :username:, `password` = :password:, `verifikasi` = :verifikasi:, `foto` = :foto:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH\Models\ModelAnggota.php(17): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\DashboardAnggota.php(130): App\Models\ModelAnggota->EditData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')
+CRITICAL - 2024-05-13 04:32:10 --> [Caused by] mysqli_sql_exception: Unknown column 'verifikasi' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `tb_user` SET `id` = \'1\', `nama` = \'sifa\', `jk` = \'laki-laki\', `telp` = \'0895386490035\', `alamat` = \'cirebon\', `role` = NULL, `username` = \'fadref\', `password` = \'refan2704\', `verifikasi` = \'1\', `foto` = \'1715574730_d911de99ab0a87e60c4e.jpg\'
+WHERE `id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_user` SET `id` = \'1\', `nama` = \'sifa\', `jk` = \'laki-laki\', `telp` = \'0895386490035\', `alamat` = \'cirebon\', `role` = NULL, `username` = \'fadref\', `password` = \'refan2704\', `verifikasi` = \'1\', `foto` = \'1715574730_d911de99ab0a87e60c4e.jpg\'
+WHERE `id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_user` SET `id` = \'1\', `nama` = \'sifa\', `jk` = \'laki-laki\', `telp` = \'0895386490035\', `alamat` = \'cirebon\', `role` = NULL, `username` = \'fadref\', `password` = \'refan2704\', `verifikasi` = \'1\', `foto` = \'1715574730_d911de99ab0a87e60c4e.jpg\'
+WHERE `id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_user` SET `id` = :id.1:, `nama` = :nama:, `jk` = :jk:, `telp` = :telp:, `alamat` = :alamat:, `role` = :role:, `username` = :username:, `password` = :password:, `verifikasi` = :verifikasi:, `foto` = :foto:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\ModelAnggota.php(17): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\DashboardAnggota.php(130): App\Models\ModelAnggota->EditData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-13 04:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 04:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 04:32:35 --> ErrorException: unlink(foto/contoh.jpg): No such file or directory
+[Method: POST, Route: DashboardAnggota/UpdateProfile]
+in APPPATH\Controllers\DashboardAnggota.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(foto/contoh.jpg): No such file or directory', 'C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\app\\Controllers\\DashboardAnggota.php', 113)
+ 2 APPPATH\Controllers\DashboardAnggota.php(113): unlink('foto/contoh.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-13 04:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-13 04:35:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'perpustakaan', 3306, '', 0)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAnggota.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\DashboardAnggota.php(111): App\Models\ModelAnggota->DetailData('1')
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAnggota.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\DashboardAnggota.php(111): App\Models\ModelAnggota->DetailData('1')
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#12 {main}
+CRITICAL - 2024-05-13 04:35:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: DashboardAnggota/UpdateProfile]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `id` = :id:', [...], false)
+ 3 APPPATH\Models\ModelAnggota.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\DashboardAnggota.php(111): App\Models\ModelAnggota->DetailData('1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->UpdateProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-13 04:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-13 04:35:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'perpustakaan', 3306, '', 0)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAnggota.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\DashboardAnggota.php(36): App\Models\ModelAnggota->ProfileAnggota('1')
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\DashboardAnggota->EditProfil()
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAnggota.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\DashboardAnggota.php(36): App\Models\ModelAnggota->ProfileAnggota('1')
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\DashboardAnggota->EditProfil()
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#12 {main}
+CRITICAL - 2024-05-13 04:35:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: DashboardAnggota/EditProfil]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `id` = :id:', [...], false)
+ 3 APPPATH\Models\ModelAnggota.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\DashboardAnggota.php(36): App\Models\ModelAnggota->ProfileAnggota('1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->EditProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')
+INFO - 2024-05-13 04:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-13 04:35:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'perpustakaan', 3306, '', 0)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAnggota.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\DashboardAnggota.php(36): App\Models\ModelAnggota->ProfileAnggota('1')
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\DashboardAnggota->EditProfil()
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Models\ModelAnggota.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampppribadirefan\htdocs\web-perpus-fixx\app\Controllers\DashboardAnggota.php(36): App\Models\ModelAnggota->ProfileAnggota('1')
+#5 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(933): App\Controllers\DashboardAnggota->EditProfil()
+#6 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+#7 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampppribadirefan\htdocs\web-perpus-fixx\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampppribadirefan\htdocs\web-perpus-fixx\system\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadi...')
+#12 {main}
+CRITICAL - 2024-05-13 04:35:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: DashboardAnggota/EditProfil]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `id` = :id:', [...], false)
+ 3 APPPATH\Models\ModelAnggota.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\DashboardAnggota.php(36): App\Models\ModelAnggota->ProfileAnggota('1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->EditProfil()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampppribadirefan\\htdocs\\web-perpus-fixx\\public\\index.php')

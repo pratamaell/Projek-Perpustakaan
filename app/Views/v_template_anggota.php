@@ -98,7 +98,44 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <p>Dashboard</p>
             </a>
           </li>
-         
+
+         <li class="nav-item <?= $menu == 'peminjaman'?'menu-open':''?>">
+         <a href="#" class="nav-link <?= $menu == 'masteranggota'?'active':''?>">
+         <i class="nav-icon fas fa-swatchbook"></i>
+         <p>Master Anggota <i class="right fas fa-angle-left"></i></p>
+        </a>
+        <ul class="nav nav-treeview">
+
+        <li class="nav-item">
+          <a href="<?= base_url('Peminjaman/Pengajuan')?>" class="nav-link <?= $submenu == 'anggota' ? 'active':''?>">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Pengajuan</p>
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="<?= base_url('Peminjaman/Pengajuan')?>" class="nav-link <?= $submenu == 'anggota' ? 'active':''?>">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Diterima</p>
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="<?= base_url('Peminjaman/Pengajuan')?>" class="nav-link <?= $submenu == 'anggota' ? 'active':''?>">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Ditolak</p>
+        </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="<?= base_url('Peminjaman/History')?>" class="nav-link <?= $submenu == 'anggota' ? 'active':''?>">
+          <i class="far fa-circle nav-icon"></i>
+          <p>History</p>
+        </a>
+        </li>
+
+        </ul>
+         </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
