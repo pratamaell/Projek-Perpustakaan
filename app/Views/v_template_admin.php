@@ -36,10 +36,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+      <h1><b><?= $web['nama_sekolah'] ?></b></h1>
       </li>
     </ul>
 
@@ -65,16 +62,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link bg-white">
-      <img src="img/logo_neper.png" alt="Neper One" width="50px" class="img-fluid" style="opacity: .8">Neper One
-      <span class="brand-text font-weight-light"></span>
+   <a href="index3.html" class="brand-link">
+      <img src="<?= base_url('logo/' .$web['logo']) ?>"  class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">Perpustakaan</span>
     </a>
-
-    <style>
-      .hijau-kalla{
-          background-color: #28854c ;
-      }
-    </style>
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -84,7 +75,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <img src="foto/contoh.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="foto/contoh.jpg" class="d-block">Admin</a>
+      <a href="#" class="d-block"><?= $user['nama'] ?></a>
         </div>
       </div>
     

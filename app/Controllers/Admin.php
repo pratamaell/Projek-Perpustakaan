@@ -1,16 +1,9 @@
 <?php
 
 namespace App\Controllers;
-use App\Models\ModelAdmin;
-use App\Models\ModelPeminjaman;
 
 class Admin extends BaseController
 {
-
-    public function __construct(){
-        $this->ModelAdmin = new ModelAdmin();
-        $this->ModelPeminjaman = new ModelPeminjaman();
-    }
     public function index(): string
     {
         $data = [
