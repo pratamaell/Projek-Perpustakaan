@@ -1,144 +1,147 @@
 <div class="col-md-12">
     <div class="card card-outline card-primary">
         <div class="card-header">
-            <h3 class="card-title">Data <?= $judul ?></h3>
+            <h3 class="card-title"><?= $judul ?></h3>
             <div class="card-tools">
-                <button type="button" class="btn btn-pimary btn-flat btn-sm" data-toggle="modal" data-target="modal-sm">
-                    <i class="fas fa-plus"></i> Add
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-sm">
+                    <i class="fas fa-plus"></i> Tambah penerbit
                 </button>
             </div>
-        </div>
+
+    </div>
 
         <div class="card-body">
-
-            <?php
-            if (session()->getFlashdata('pesan')) {
+           
+                <?php 
+                if(session()->getFlashdata('pesan')){
                 echo '<div class="alert alert-success alert-dismissible">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                <h5><i class="icon fas fa-check"></i>';
+                <h5><i class="icon fas fa-check"></i> Berhasil</h5>';
+                // echo $info;
                 echo session()->getFlashdata('pesan');
-                echo '</h5></div>';
-            }
+                echo '</div>';
+                }
+                ?>
 
-            ?>
-
-            <table class="table table-bordered">
+<table id="example2" class="table table-bordered table-hover">
                 <thead>
                     <tr class="text-center">
-                        <th width="50px">id</th>
-                        <th>Nama</th>
+                        <th width="50px">No</th>
+                        <th width="800px">Nama Penerbit</th>
                         <th>Alamat</th>
-                        <th>no_Telepon</th>
-                        <th width="100px">Action</th>
+                        <th>No Hp</th>
+                        <th width="400px">Edit</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php $id = 1;
-                    foreach ($penerbit as $key => $value) { ?>
+                    <?php $no = 1;
+                    foreach($penerbit as $key => $value){?>
                         <tr>
-                            <td><?= $id++ ?></td>
-                            <td><?= $values['nama'] ?></td>
-                            <td>
-                                <button type="button" class="btn btn-warning btn-flat btn-sm" data-toggle="modal" data-target="modal-edit<?= $value['id'] ?>">
-                                    <i class="fas fa-edit"></i>
-                                </button>
-                                <button type="button" class="btn btn-denger btn-flat btn-sm" data-toggle="modal" data-target="modal-delete<?= $value['id'] ?>">
-                                    <i class="fas fa-trash"></i>
-                                </button>
+                            <td><?= $no++ ?></td>
+                            <td><?= $value['nama'] ?></td>
+                            <td><?= $value['alamat'] ?></td>
+                            <td><?= $value['telp'] ?></td>
+                            <td class="text-center">
+                                <a class="btn btn-warning" href="" data-toggle="modal" data-target="#modal-edit<?= $value['id']?>"><i class="fas fa-edit"></i></a>
+                                <a class="btn btn-danger" href="" data-toggle="modal" data-target="#modal-hapus<?= $value['id']?>"><i class="fas fa-trash"></i></a>
                             </td>
                         </tr>
-                    <?php } ?>
+                    <?php }?>
                 </tbody>
             </table>
+        
+
+
 
         </div>
     </div>
 </div>
 
-<!-- Modal Add -->
-
+<!-- tambah ktgori -->
 <div class="modal fade" id="modal-sm">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Tambah <?= $judul ?></h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                <h4 class="modal-title">Tambah penerbit Buku</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <?php echo form_open(base_url('Penerbit/AddData')) ?>
+                <?php echo form_open(base_url('Penerbit/Tambah'));?>
                 <div class="form-group">
-                    <label>Nama Penerbit</label>
-                    <input class="form-control" name="nama" placeholder="nama" required>
+                    <label for="exampleInputEmail1">Nama penerbit</label>
+                    <input type="text" class="form-control" name="nama" placeholder="Penerbit Buku" required>
+                    <label for="exampleInputEmail1">Alamat</label>
+                    <input type="text" class="form-control" name="alamat" placeholder="Alamat " required>
+                    <label for="exampleInputEmail1">No Hp</label>
+                    <input type="text" class="form-control" name="telp" placeholder="No HP " required>
+                    </div>
                 </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
-            <div class="model-footer justify-content-between">
-                <button type="button" class="bin btn-defult btn-flat" data-dismiss="model">close</button>
-                <button type="submit" class="btn btn-primary btn-flat">Simpan</button>
-            </div>
-            <?php echo form_close() ?>
+            <?php echo form_close();?>
         </div>
-        <!-- modal-content -->
     </div>
-    <!-- modal-dialog -->
 </div>
 
-<!-- Modal Edit -->
-<?php foreach ($penerbit as $key => $value) { ?>
-    <div class="modal fade" id="modal-edit<?= $value['id'] ?>">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Edit <?= $judul ?></h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?php echo form_open(base_url('Penerbit/EditData/' . $value['id'])) ?>
-                    <div class="form-group">
-                        <label>Nama Penerbit</label>
-                        <input class="form-control" value="<?= $value['nama'] ?>" name="nama" placeholder="nama" required>
+<!-- hapus penerbit -->
+<?php foreach ($penerbit as $key => $value) {?>
+<div class="modal fade" id="modal-hapus<?= $value['id']?>">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Hapus Data Penerbit Buku</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <?php echo form_open(base_url('Penerbit/HapusPenerbit/' . $value['id']));?>
+                <div class="form-group">
+                    Anda yakin ingin menghapus Penerbit <b><?= $value['nama']?></b> ?
                     </div>
                 </div>
-                <div class="model-footer justify-content-between">
-                    <button type="button" class="bin btn-defult btn-flat" data-dismiss="model">close</button>
-                    <button type="submit" class="btn btn-warning btn-flat">Simpan</button>
-                </div>
-                <?php echo form_close() ?>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-danger">Hapus penerbit</button>
             </div>
-            <!-- modal-content -->
+            <?php echo form_close();?>
         </div>
-        <!-- modal-dialog -->
     </div>
-<?php } ?>
+</div>
+<?php };?>
 
-<!-- Modal Delete -->
-<?php foreach ($penerbit as $key => $value) { ?>
-    <div class="modal fade" id="modal-delete<?= $value['id'] ?>">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Edit <?= $judul ?></h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?php echo form_open(base_url('Penerbit/DeleteData/' . $value['id'])) ?>
-                    <div class="form-group">
-                        Apakah Anda Yakin ingin Menghapus Data <b><?= $value['nama'] ?></b>..?
-                    </div>
-                </div>
-                <div class="model-footer justify-content-between">
-                    <button type="button" class="bin btn-defult btn-flat" data-dismiss="model">close</button>
-                    <button type="submit" class="btn btn-danger btn-flat">Delete</button>
-                </div>
-                <?php echo form_close() ?>
+<!-- edit penerbit -->
+<?php foreach ($penerbit as $key => $value) {?>
+<div class="modal fade" id="modal-edit<?=$value['id'];?>">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Tambah Data penerbit Buku</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-            <!-- modal-content -->
+            <div class="modal-body">
+                <?php echo form_open(base_url('Penerbit/EditPenerbit/' . $value['id'] ));?>
+                <div class="form-group">
+                <label for="exampleInputEmail1">Nama penerbit</label>
+                    <input type="text" class="form-control" name="nama" placeholder="Penerbit Buku" required>
+                    <label for="exampleInputEmail1">Alamat</label>
+                    <input type="text" class="form-control" name="alamat" placeholder="Alamat " required>
+                    <label for="exampleInputEmail1">No Hp</label>
+                    <input type="text" class="form-control" name="telp" placeholder="No HP " required>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
+            </div>
+            <?php echo form_close();?>
         </div>
-        <!-- modal-dialog -->
     </div>
-<?php } ?>
+</div>
+<?php };?>

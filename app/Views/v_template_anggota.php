@@ -98,25 +98,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <p>Dashboard</p>
             </a>
           </li>
+          <li class="nav-item <?php if($menu == 'peminjaman'){echo 'menu-open';}?>">
+    <a href="#" class="nav-link <?php if($menu == 'peminjaman'){echo 'active';}?>">
+        <i class="nav-icon fas fa-swatchbook"></i>
+        <p class="fw-white">
+            Peminjaman
+            <i class="right fas fa-angle-left"></i>
+        </p>
+    </a>
+    <ul class="nav nav-treeview">
+        <li class="nav-item">
+            <a href="<?= isset($hstagt['id']) ? base_url('Peminjaman/HistoryAgt/' . $hstagt['id']) : '#' ?>" class="nav-link <?= $submenu == 'history' ? 'active' : '' ?>">
+                <i class="far fa-circle nav-icon"></i>
+                <p>History</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="<?= base_url('Peminjaman/ShowBukuAll') ?>" class="nav-link <?= $submenu == 'showbuku' ? 'active' : '' ?>">
+                <i class="nav-icon fas fa-book"></i>
+                <p>Etalase Buku</p>
+            </a>
+        </li>
+    </ul>
+</li>
+
          
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Simple Link
-                <span class="right badge badge-danger">New</span>
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Simple Link
-                <span class="right badge badge-danger">New</span>
-              </p>
-            </a>
-          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -186,5 +192,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="<?= base_url('AdminLTE') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?= base_url('AdminLTE') ?>/dist/js/adminlte.min.js"></script>
+<script>
+    function bacaGambar(input){
+     if(input. files && input.files[0]){
+        var reader= new FileReader();
+        reader.onload=function(e){
+            $('#gambar_load').attr('src', e.target.result);
+        }
+        reader.readAsDataURL(input.files[0]);
+     }
+    }
+    $('#preview_gambar').change(function(){bacaGambar(this);});
+</script>
 </body>
 </html>

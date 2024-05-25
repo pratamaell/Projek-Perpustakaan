@@ -3,51 +3,59 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\ModelKategori;
 
 class Kategori extends BaseController
-{
 
+{
     public function __construct()
     {
         helper('form');
         $this->ModelKategori = new ModelKategori;
     }
+
     public function index()
     {
         $data = [
+            'menu' => 'masterdata',
+            'submenu'=> 'kategori',
             'judul' => 'Kategori',
             'page' => 'v_kategori',
-            'Kategori' => $this->ModelKategori->AllData(),
+            'kategori' => $this->ModelKategori->AllData(),
         ];
         return view('v_template_admin', $data);
     }
 
-    public function Add()
-    {
-        $data = ['nama'=>$this->request->getPost('nama')];
-        $this->ModelKategori->Add($data);
-        session()->setFlashdata('pesan', 'Data Berhasil Ditambahkan');
-        return redirect()->to(base_url('Kategori'));
-    }
-
-    public function EditData($id)
+    public function Tambah()
     {
         $data = [
-            'id' => $id,
             'nama' => $this->request->getPost('nama')
         ];
-        $this->ModelKategori->EditData($data);
-        session()->setFlashdata('pesan', 'Data Berhasil DiUpdate');
-        return redirect()->to(base_url('Kategori'));
+            $this->ModelKategori->Tambah($data);
+            session()->setFlashdata('pesan', 'Kategori Berhasil Disimpan');
+            return redirect()->to(base_url('Kategori'));  
     }
 
-    public function DeleteData($id)
+    public function EditKategori($id_kategori)
     {
-        $data = ['id' => $id];
-        $this->ModelKategori->DeleteData($data);
-        session()->setFlashdata('pesan', 'Data Berhasil DiHapus');
-        return redirect()->to(base_url('Kategori'));
+        $data = [
+            'id' => $id_kategori,
+            'nama' => $this->request->getPost('nama')  
+        ];
+
+            $this->ModelKategori->EditKategori($data);
+            session()->setFlashdata('pesan', 'Kategori Berhasil Disimpan');
+            return redirect()->to(base_url('Kategori'));  
+    }
+
+    public function HapusKategori($id_kategori)
+    {
+        $data = [
+            'id' => $id_kategori
+        ];
+
+            $this->ModelKategori->HapusKategori($data);
+            session()->setFlashdata('pesan', 'Kategori Berhasil Dihapus');
+            return redirect()->to(base_url('Kategori'));  
     }
 }
