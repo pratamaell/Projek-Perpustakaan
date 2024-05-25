@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-
 use App\Models\ModelPenerbit;
 
 class Penerbit extends BaseController
@@ -13,43 +12,51 @@ class Penerbit extends BaseController
         helper('form');
         $this->ModelPenerbit = new ModelPenerbit;
     }
+
+
     public function index()
     {
-        $data = [
+         $data = [
             'menu' => 'masterdata',
-            'submenu' => 'penerbit',
-            'judul' => 'Penerbit',
+            'submenu'=> 'penerbit',
+            'judul' => 'Data Penerbit Buku',
             'page' => 'v_penerbit',
-            'Penerbit' => $this->ModelPenerbit->AllData(),
+            'penerbit' => $this->ModelPenerbit->AllData(),
         ];
         return view('v_template_admin', $data);
     }
-    public function AddData()
+
+    public function Tambah()
     {
         $data = [
-            'nama' => $this->request->getPost('nama'),
-        ];
-        $this->ModelPenerbit->AddData($data);
-        session()->setFlashdata('pesan', 'Data Berhasil Ditambahkan');
-        return redirect()->to(base_url('Penerbit'));
-    }
-    public function EditData($id)
-    {
-        $data = [
-            'id' => $id,
             'nama' => $this->request->getPost('nama')
         ];
-        $this->ModelPenerbit->EditData($data);
-        session()->setFlashdata('pesan', 'Data Berhasil DiUpdate');
-        return redirect()->to(base_url('Penerbit'));
+            $this->ModelPenerbit->Tambah($data);
+            session()->setFlashdata('pesan', 'Data Penerbit Berhasil Disimpan');
+            return redirect()->to(base_url('Penerbit'));  
     }
-    public function DeleteData($id)
+
+    public function HapusPenerbit($id_penerbit)
     {
         $data = [
-            'id' => $id,
+            'id_penerbit' => $id_penerbit
         ];
-        $this->ModelPenerbit->DeleteData($data);
-        session()->setFlashdata('pesan', 'Data Berhasil DiHapus');
-        return redirect()->to(base_url('Penerbit'));
+
+            $this->ModelPenerbit->HapusPenerbit($data);
+            session()->setFlashdata('pesan', 'Data Penerbit Berhasil Dihapus');
+            return redirect()->to(base_url('Penerbit'));  
     }
+
+    public function EditPenerbit($id_penerbit)
+    {
+        $data = [
+            'id_penerbit' => $id_penerbit,
+            'nama_penerbit' => $this->request->getPost('nama_penerbit')  
+        ];
+
+            $this->ModelPenerbit->EditPenerbit($data);
+            session()->setFlashdata('pesan', 'Kategori Berhasil Disimpan');
+            return redirect()->to(base_url('Penerbit'));  
+    }
+
 }

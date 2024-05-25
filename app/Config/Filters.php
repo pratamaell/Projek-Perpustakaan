@@ -93,7 +93,14 @@ class Filters extends BaseFilters
                     'Auth', 'Auth/*',
                     'Home', 'Home/*',
                     '/',
-                    'Admin', 'Admin/*'
+                    'Admin', 'Admin/*',
+                    'Kategori','Kategori/*',
+                    'Penerbit','Penerbit/*',
+                    'Penulis', 'Penulis/*',
+                    'Anggota', 'Anggota/*',
+                    'DashboardAnggota', 'DashboardAnggota/*',
+                    'Cbuku', 'Cbuku/*',
+                    'Peminjaman', 'Peminjaman/*',
                 ]
                 ],
                 'filteranggota' => [
@@ -102,6 +109,7 @@ class Filters extends BaseFilters
                         'Home', 'Home/*',
                         '/',
                         'DashboardAnggota', 'DashboardAnggota/*',
+                        'Peminjaman', 'Peminjaman/*',
                     ]
                 ]
         ],

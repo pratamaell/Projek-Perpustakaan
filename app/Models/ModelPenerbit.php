@@ -8,27 +8,21 @@ class ModelPenerbit extends Model
 {
     public function AllData()
     {
-        return $this->db->table('tb_penerbit')
-        ->orderBy('id', 'DESC')
-        ->get()->getResultArray();
+        return $this->db->table('tb_penerbit')->orderBy('id', 'DESC')->get()->getResultArray();
     }
 
-    public function Add($data)
+    public function Tambah($data)
     {
         $this->db->table('tb_penerbit')->insert($data);
     }
 
-    public function DeleteData($data)
+    public function HapusPenerbit($data)
     {
-        $this->db->Table('tb_penerbit')
-        ->where('id', $data['id'])
-            ->delete($data);
-    }
+        $this->db->table('tb_penerbit')->where('id', $data['id'])->delete($data);
+    } 
 
-    public function EditData($data)
+    public function EditPenerbit($data)
     {
-        $this->db->Table('tb_penerbit')
-        ->where('id', $data['id'])
-            ->update($data);
-    }
+        $this->db->table('tb_penerbit')->where('id', $data['id'])->update($data);
+    } 
 }

@@ -3,140 +3,130 @@
         <div class="card-header">
             <h3 class="card-title">Data <?= $judul ?></h3>
             <div class="card-tools">
-                <button type="button" class="btn btn-pimary btn-flat btn-sm" data-toggle="modal" data-target="modal-sm">
-                    <i class="fas fa-plus"></i> Add
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-sm">
+                    <i class="fas fa-plus"></i> Tambah kategori
                 </button>
             </div>
-        </div>
+
+    </div>
 
         <div class="card-body">
-
-            <?php
-            if (session()->getFlashdata('pesan')) {
+           
+                <?php 
+                if(session()->getFlashdata('pesan')){
                 echo '<div class="alert alert-success alert-dismissible">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                <h5><i class="icon fas fa-check"></i>';
+                <h5><i class="icon fas fa-check"></i> Berhasil</h5>';
+                // echo $info;
                 echo session()->getFlashdata('pesan');
-                echo '</h5></div>';
-            }
-
-            ?>
+                echo '</div>';
+                }
+                ?>
 
             <table class="table table-bordered">
-                <thead>
-                    <tr class="text-center">
-                        <th width="50px">id</th>
-                        <th>Nama</th>
-                        <th width="100px">Action</th>
+                <th>
+                    <tr>
+                        <th width="50px">No</th>
+                        <th>Kategori</th>
+                        <th width="200px" class="text-center">Edit</th>
                     </tr>
-                </thead>
+                </th>
                 <tbody>
-                    <?php $id = 1;
-                    foreach ($kategori as $key => $value) { ?>
+                    <?php $no = 1;
+                    foreach($kategori as $key => $value){?>
                         <tr>
-                            <td><?= $id++ ?></td>
-                            <td><?= $values['nama'] ?></td>
-                            <td>
-                                <button type="button" class="btn btn-warning btn-flat btn-sm" data-toggle="modal" data-target="modal-edit<?= $value['id'] ?>">
-                                    <i class="fas fa-edit"></i>
-                                </button>
-                                <button type="button" class="btn btn-denger btn-flat btn-sm" data-toggle="modal" data-target="modal-delete<?= $value['id'] ?>">
-                                    <i class="fas fa-trash"></i>
-                                </button>
+                            <td><?= $no++ ?></td>
+                            <td><?= $value['nama'] ?></td>
+                            <td class="text-center">
+                                <a class="btn btn-warning" href="" data-toggle="modal" data-target="#modal-edit<?= $value['id']?>"><i class="fas fa-edit"></i></a>
+                                <a class="btn btn-danger" href="" data-toggle="modal" data-target="#modal-hapus<?= $value['id']?>"><i class="fas fa-trash"></i></a>
                             </td>
                         </tr>
-                    <?php } ?>
+                    <?php }?>
                 </tbody>
             </table>
-
         </div>
     </div>
 </div>
 
-<!-- Modal Add -->
-
+<!-- tambah ktgori -->
 <div class="modal fade" id="modal-sm">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Tambah <?= $judul ?></h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                <h4 class="modal-title">Tambah Kategori Buku</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <?php echo form_open(base_url('Kategori/Add')) ?>
+                <?php echo form_open(base_url('Kategori/Tambah'));?>
                 <div class="form-group">
-                    <label>Nama Kategori</label>
-                    <input class="form-control" name="nama" placeholder="nama" required>
+                    <label for="exampleInputEmail1">Nama Kategori</label>
+                    <input type="text" class="form-control" name="nama" placeholder="Kategori Buku" required>
+                    </div>
                 </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
-            <div class="model-footer justify-content-between">
-                <button type="button" class="bin btn-defult btn-flat" data-dismiss="model">close</button>
-                <button type="submit" class="btn btn-primary btn-flat">Simpan</button>
-            </div>
-            <?php echo form_close() ?>
+            <?php echo form_close();?>
         </div>
-        <!-- modal-content -->
     </div>
-    <!-- modal-dialog -->
 </div>
 
-<!-- Modal Edit -->
-<?php foreach ($kategori as $key => $value) { ?>
-    <div class="modal fade" id="modal-edit<?= $value['id'] ?>">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Edit <?= $judul ?></h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?php echo form_open(base_url('Kategori/EditData/' . $value['id'])) ?>
-                    <div class="form-group">
-                        <label>Nama Kategori</label>
-                        <input class="form-control" value="<?= $value['nama'] ?>" name="nama" placeholder="nama" required>
-                    </div>
-                </div>
-                <div class="model-footer justify-content-between">
-                    <button type="button" class="bin btn-defult btn-flat" data-dismiss="model">close</button>
-                    <button type="submit" class="btn btn-warning btn-flat">Simpan</button>
-                </div>
-                <?php echo form_close() ?>
-            </div>
-            <!-- modal-content -->
-        </div>
-        <!-- modal-dialog -->
-    </div>
-<?php } ?>
 
-<!-- Modal Delete -->
-<?php foreach ($kategori as $key => $value) { ?>
-    <div class="modal fade" id="modal-delete<?= $value['id'] ?>">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Edit <?= $judul ?></h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?php echo form_open(base_url('Kategori/DeleteData/' . $value['id'])) ?>
-                    <div class="form-group">
-                        Apakah Anda Yakin ingin Menghapus Data <b><?=  $value['nama'] ?></b>..?
+<!-- edit ktgori -->
+<?php foreach ($kategori as $key => $value) {?>
+<div class="modal fade" id="modal-edit<?= $value['id']?>">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Edit Kategori Buku</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <?php echo form_open(base_url('Kategori/EditKategori/' . $value['id']));?>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Nama Kategori</label>
+                    <input type="text" class="form-control" name="nama" value="<?= $value['nama']?>" placeholder="Kategori Buku" required>
                     </div>
                 </div>
-                <div class="model-footer justify-content-between">
-                    <button type="button" class="bin btn-defult btn-flat" data-dismiss="model">close</button>
-                    <button type="submit" class="btn btn-danger btn-flat">Delete</button>
-                </div>
-                <?php echo form_close() ?>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
-            <!-- modal-content -->
+            <?php echo form_close();?>
         </div>
-        <!-- modal-dialog -->
     </div>
-<?php } ?>
+</div>
+<?php }; ?>
+
+<!-- hapus ktgori -->
+<?php foreach ($kategori as $key => $value) {?>
+<div class="modal fade" id="modal-hapus<?= $value['id']?>">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Hapus Kategori Buku</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <?php echo form_open(base_url('Kategori/HapusKategori/' . $value['id']));?>
+                <div class="form-group">
+                    Anda yakin ingin menghapus kategori <b><?= $value['nama']?></b> ?
+                    </div>
+                </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-danger">Hapus Kategori</button>
+            </div>
+            <?php echo form_close();?>
+        </div>
+    </div>
+</div>
+<?php };?>
