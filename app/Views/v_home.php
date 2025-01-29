@@ -1,1 +1,1 @@
-<h1>Maaf Ya Bang Kalo Isun Ngerjainnya Lama:)</h1>
+<h1>Silahkan login terlebih dahulu!</h1>

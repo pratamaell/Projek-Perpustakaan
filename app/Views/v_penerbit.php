@@ -120,7 +120,7 @@
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Tambah Data penerbit Buku</h4>
+                <h4 class="modal-title">Edit Data penerbit Buku</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -129,11 +129,11 @@
                 <?php echo form_open(base_url('Penerbit/EditPenerbit/' . $value['id'] ));?>
                 <div class="form-group">
                 <label for="exampleInputEmail1">Nama penerbit</label>
-                    <input type="text" class="form-control" name="nama" placeholder="Penerbit Buku" required>
+                    <input type="text" class="form-control" name="nama" value="<?= $value['nama']?>" placeholder="Penerbit Buku" required>
                     <label for="exampleInputEmail1">Alamat</label>
-                    <input type="text" class="form-control" name="alamat" placeholder="Alamat " required>
+                    <input type="text" class="form-control" name="alamat" value="<?= $value['alamat']?>" placeholder="Alamat " required>
                     <label for="exampleInputEmail1">No Hp</label>
-                    <input type="text" class="form-control" name="telp" placeholder="No HP " required>
+                    <input type="text" class="form-control" name="telp" value="<?= $value['telp']?>" placeholder="No HP " required>
                 </div>
             </div>
             <div class="modal-footer justify-content-between">

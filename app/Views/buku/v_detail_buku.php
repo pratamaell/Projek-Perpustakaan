@@ -47,7 +47,7 @@
                 <tr>
                     <th width="150px">Kategori Buku </th>
                     <th width="50px">:</th>
-                    <td>Buku <?= $buku['kategori_buku']?></td>
+                    <td>Buku <?= $buku['nama']?></td>
                 </tr>
                 <tr>
                     <th width="150px">Jumlah  </th>
@@ -57,12 +57,12 @@
                 <tr>
                     <th width="150px">Penulis  </th>
                     <th width="50px">:</th>
-                    <td><?= $buku['nama_penulis']?></td>
+                    <td><?= $buku['nama']?></td>
                 </tr>
                 <tr>
                     <th width="150px">Penerbit </th>
                     <th width="50px">:</th>
-                    <td><?= $buku['nama_penerbit']?></td>
+                    <td><?= $buku['nama']?></td>
                 </tr>
                 <tr>
                     <th width="150px">Dipinjam</th>

@@ -70,9 +70,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="image">
           <img src="<?= base_url('AdminLTE') ?>/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
-        <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
-        </div>
       </div>
 
       <!-- SidebarSearch Form -->
@@ -93,7 +90,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item">
-            <a href="#" class="nav-link<?= $menu == 'dashboard' ? 'active': ''  ?>">
+            <a href="<?= base_url('DashboardAnggota')?>" class="nav-link<?= $menu == 'dashboard' ? 'active': ''  ?>">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>Dashboard</p>
             </a>
@@ -107,12 +104,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </p>
     </a>
     <ul class="nav nav-treeview">
-        <li class="nav-item">
-            <a href="<?= isset($hstagt['id']) ? base_url('Peminjaman/HistoryAgt/' . $hstagt['id']) : '#' ?>" class="nav-link <?= $submenu == 'history' ? 'active' : '' ?>">
-                <i class="far fa-circle nav-icon"></i>
-                <p>History</p>
-            </a>
-        </li>
         <li class="nav-item">
             <a href="<?= base_url('Peminjaman/ShowBukuAll') ?>" class="nav-link <?= $submenu == 'showbuku' ? 'active' : '' ?>">
                 <i class="nav-icon fas fa-book"></i>

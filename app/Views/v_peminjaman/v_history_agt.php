@@ -14,11 +14,11 @@ if (empty($hstagt)) {
                             <blockquote>
                                  <?php if ($data['status'] === 'Belum Kembali') : ?>
                                     <p>Anda belum mengembalikan buku sampai hari ini, tanggal akhir peminjaman buku <b><?= $data['tgl_kembali']?></b></p>
-                                    <small><a class="text-danger">Segera hubungi petugas perpustakaan untuk mengembalikan buku <cite title="Source Title"><?= $data['judul_buku']?>.</cite></a></small>
+                                    <small><a class="text-danger">Segera hubungi petugas perpustakaan untuk mengembalikan buku <cite title="Source Title"><?= $data['judul']?>.</cite></a></small>
                                 <?php endif; ?>
                                  <?php if ($data['status'] === 'Dikembalikan') : ?>
                                     <p>Anda telah mengembalikan buku sesuai dengan tanggal akhir peminjaman <?= $data['tgl_kembali']?>.</p>
-                                    <small>Durasi peminjaman buku <cite title="Source Title"><?= $data['judul']?></cite> selama <?= $data['lama_pinjam']?> hari.</small>
+                                    <small>Durasi peminjaman buku <cite title="Source Title"><?= $data['judul']?></cite> selama <?= $data['batas_waktu']?> hari.</small>
                                 <?php endif; ?>
                             </blockquote>
                         </div>

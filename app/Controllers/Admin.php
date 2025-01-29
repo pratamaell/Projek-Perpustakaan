@@ -3,13 +3,17 @@
 namespace App\Controllers;
 use App\Models\ModelAdmin;
 use App\Models\ModelPeminjaman;
+use App\Models\ModelBuku;
 
 class Admin extends BaseController
 {
 
     public function __construct(){
+        helper('form');
+
         $this->ModelAdmin = new ModelAdmin();
         $this->ModelPeminjaman = new ModelPeminjaman();
+        $this->ModelBuku = new ModelBuku();
     }
     public function index(): string
     {
@@ -18,7 +22,10 @@ class Admin extends BaseController
             'submenu' => '',
             'judul' => 'Dasboard',
             'page' => 'v_dashboard_admin',
+            'jumlah' => $this->ModelBuku->JumlahBuku(), 
             'totalanggota' => $this->ModelAdmin->TotalAnggota(),
+            'pinjam' => $this->ModelPeminjaman->JumlahBukuPinjam(), 
+            'terlambat' => $this->ModelPeminjaman->JumlahBukuPinjamTerlambat(), 
         ];
         return view('v_template_admin',$data);
     }
@@ -210,6 +217,7 @@ class Admin extends BaseController
         $this->ModelPeminjaman->EditTerlambat($id_pinjam, $data);
         return redirect()->to(base_url('Admin/History'));
     }
+    
 
 
 }

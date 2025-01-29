@@ -8,25 +8,27 @@ class ModelPeminjaman extends Model
 {
     protected $table = 'tb_peminjam'; 
     protected $primaryKey = 'id'; 
-    protected $allowedFields = ['user_id', 'jumlah_buku', 'tgl_pinjam','tgl_kembali', 'batas_waktu', 'status', 'denda', 'id_buku', 'tgl_terlambat','keterlambatan'];
+    protected $allowedFields = ['user_id', 'jumlah_buku','id_buku', 'tgl_pinjam','tgl_kembali', 'batas_waktu', 'status', 'denda','tgl_terlambat','keterlambatan'];
 
     public function AddPengajuan($data)
     {
         $this->insert($data);
     }
+    
+    
 
     public function PengajuanBuku($id_anggota)
     {
         return $this->db->table('tb_peminjam')
-        ->join('tb_buku', 'tb_buku.id = tb_peminjam.id_buku', 'left')
-        ->join('tb_penulis', 'tb_penulis.id = tb_buku.penulis_id', 'left')
-        ->join('tb_penerbit', 'tb_penerbit.id = tb_buku.penerbit_id', 'left')
-        ->join('tb_kategori', 'tb_kategori.id = tb_buku.kategori_id', 'left')
-        ->where('id', $id_anggota)
-        ->where('status', 'Diajukan')
-        ->get()->getResultArray();
+            ->join('tb_buku', 'tb_buku.id = tb_peminjam.id_buku', 'left')
+            ->join('tb_penulis', 'tb_penulis.id = tb_buku.penulis_id', 'left')
+            ->join('tb_penerbit', 'tb_penerbit.id = tb_buku.penerbit_id', 'left')
+            ->join('tb_kategori', 'tb_kategori.id = tb_buku.kategori_id', 'left')
+            ->where('tb_peminjam.id', $id_anggota)
+            ->where('tb_peminjam.status', 'Diajukan')
+            ->get()->getResultArray();
     }
-
+    
 
     public function PengajuanMasuk()
 {
@@ -149,7 +151,7 @@ class ModelPeminjaman extends Model
         ->join('tb_kategori', 'tb_kategori.id = tb_buku.kategori_id', 'left')
             ->where('status', 'Dipinjam' )
             ->orWhere('status', 'Waiting' )
-            ->select('tb_buku.id,tb_buku.judul,tb_user.id,tb_user.nama,tb_user.foto,tb_peminjam.tgl_pinjam,tb_peminjam.tgl_kembali,tb_peminjam.batas_waktu,tb_peminjam.id,tb_kategori.nama,tb_penulis.nama,tb_penerbit.nama,tb_buku.jumlah,tb_buku.lokasi')
+            ->select('tb_buku.id,tb_buku.judul,tb_user.id,tb_user.nama,tb_user.foto,tb_peminjam.tgl_pinjam,tb_peminjam.tgl_kembali,tb_peminjam.batas_waktu,tb_peminjam.id,tb_kategori.nama,tb_penulis.nama,tb_penerbit.nama,tb_buku.jumlah,tb_buku.lokasi,tb_buku.foto_buku,tb_peminjam.status')
             ->get()
             ->getResultArray();
     }

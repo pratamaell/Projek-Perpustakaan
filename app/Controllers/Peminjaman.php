@@ -60,56 +60,32 @@ class Peminjaman extends BaseController
             $tgl_pinjam = $hari_pinjam->getDay();
 
             $lama_pinjam = $this->request->getPost('durasi');
-
             $tgl_harus_kembali = date("Y-m-d", mktime(0, 0, 0, $bln_pinjam, $tgl_pinjam + $lama_pinjam, $thn_pinjam));
 
+            // Retrieve user_id from session and add it to the data array
+            $user_id = session()->get('id');
+
+            // Prepare data array for insertion
             $data = [
-                'id' => session()->get('id'),
-                'id_buku' => $this->request->getPost('judul'),
+                'user_id' => $user_id,  // Include user_id
                 'tgl_pinjam' => $this->request->getPost('tgl_pinjam'),
+                'id' => $this->request->getPost('judul'),
                 'batas_waktu' => $this->request->getPost('durasi'),
                 'tgl_kembali' => $tgl_harus_kembali,
-                'status' => 'Diajukan',
+                'status_pinjam' => 'Diajukan',
             ];
 
+            // Call the AddPengajuan method in the model
             $this->ModelPeminjaman->AddPengajuan($data);
 
             session()->setFlashdata('pesan', 'Peminjaman Buku Berhasil diajukan');
             return redirect()->to(base_url('Peminjaman/Pengajuan'));
         } else {
+            // If validation fails
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
             return redirect()->to(base_url('Peminjaman/Pengajuan'));
         }
     }
-
-    public function HistoryAgt($id_anggota)
-    {
-        $id_anggota = session()->get('id');
-        $data = [
-            'menu' => 'peminjaman',
-            'submenu' => 'history',
-            'judul' => 'History Peminjaman Buku',
-            'page' => 'v_peminjaman/v_history_agt',
-            'hstagt' => $this->ModelPeminjaman->HistoryBukuAgt($id_anggota),
-            'anggota' => $this->ModelAnggota->ProfileAnggota($id_anggota),
-        ];
-        return view('v_template_anggota', $data);
-    }
-
-    public function TerimaAgt()
-    {
-        $id_anggota = session()->get('id');
-        $data = [
-            'menu' => 'peminjaman',
-            'submenu' => 'diterima',
-            'judul' => 'Validasi Peminjaman Buku',
-            'page' => 'v_peminjaman/v_terima_agt',
-            'peminjaman' => $this->ModelPeminjaman->BukuDiterima($id_anggota),
-            'anggota' => $this->ModelAnggota->ProfileAnggota($id_anggota),
-        ];
-        return view('v_template_anggota', $data);
-    }
-
     public function detailPeminjaman($id_anggota)
     {
         $data = [
@@ -163,5 +139,22 @@ class Peminjaman extends BaseController
             'buku' => $this->ModelBuku->AmbilDetail($id_buku),
         ];
         return view('v_template_anggota', $data);
+    }
+    public function HistoryAgt($id_anggota)
+    {
+        $id_anggota = session()->get('id');
+       
+        $data = [
+            'id' => $id_anggota,
+            'menu' => 'peminjaman',
+            'submenu' => 'history',
+            'judul' => 'History Peminjaman Buku',
+            'page' => 'v_peminjaman/v_history_agt',
+            'hstagt' => $this->ModelPeminjaman->HistoryBukuAgt($id_anggota),
+            
+        ];
+
+        return view('v_template_anggota', $data);
+       
     }
 }

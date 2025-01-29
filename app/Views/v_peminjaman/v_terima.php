@@ -23,7 +23,7 @@
                           No
                       </th>
                       <th style="width: 20%">
-                          Nama Mahasiswa
+                          Nama 
                       </th>
                       <th style="width: 30%" class="text-center">
                           Judul Buku

@@ -39,7 +39,7 @@ class Penerbit extends BaseController
     public function HapusPenerbit($id_penerbit)
     {
         $data = [
-            'id_penerbit' => $id_penerbit
+            'id' => $id_penerbit
         ];
 
             $this->ModelPenerbit->HapusPenerbit($data);
@@ -50,8 +50,8 @@ class Penerbit extends BaseController
     public function EditPenerbit($id_penerbit)
     {
         $data = [
-            'id_penerbit' => $id_penerbit,
-            'nama_penerbit' => $this->request->getPost('nama_penerbit')  
+            'id' => $id_penerbit,
+            'nama' => $this->request->getPost('nama')  
         ];
 
             $this->ModelPenerbit->EditPenerbit($data);

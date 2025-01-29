@@ -58,13 +58,11 @@ class Pengajuan extends BaseController
             $tgl_harus_kembali = date("Y-m-d", mktime(0, 0, 0, $bln_pinjam, $tgl_pinjam + $lama_pinjam, $thn_pinjam,));
 
             $data = [
-                'no_pinjam' => $this->request->getpost('post_no_pinjam'),
-                'tgl_pengajuan' => date ('Y-m-d'),
-                'id_anggota' => session()->get('id_anggota'),
+                'id' => session()->get('id'),
                 'tgl_pinjam' => $this->request->getpost('post_tgl_pinjam'),
                 'id_buku' => $this->request->getpost('id_buku'),
                 'qty' => '1',
-                'lama_pinjam' => $this->request->getpost('post_durasi'),
+                'batas_waktu' => $this->request->getpost('post_durasi'),
                 'tgl_kembali'=> $tgl_harus_kembali,
                 'status_pinjam'=> 'Pengajuan',
             ];

@@ -31,11 +31,11 @@
             <div class="row">
               <div class="col-7">
                 <h2 class="lead"><b><?= $value['judul']?></b></h2>
-                <p class="text-muted mb-3 text-sm"><b>Penulis / Penerbit : </b> <?= $value['penulis_id']?> /<?= $value['penerbit_id']?> </p>
+                <p class="text-muted mb-3 text-sm"><b>Penulis / Penerbit : </b> <?= $value['nama']?> /<?= $value['nama']?> </p>
                 
                 <ul class="ml-4 fa-ul text-muted">
                   <li class="small"><span class="fa-li"><i class="fas fa-calendar-week"></i></span>Tahun: <?= $value['tahun']?></li>
-                  <li class="small mt-2"><span class="fa-li"><i class="fas fa-book-open"></i></span> Jumlah : <?=$value['jumlah']?></li>
+                  <li class="small mt-2"><span class="fa-li"><i class="fas fa-book-open"></i></span> Jumlah Halaman : <?=$value['jumlah']?> hlm</li>
                 </ul>
               </div>
               <div class="col-5 text-center">
@@ -86,9 +86,6 @@
 </section>
 <!-- /.content -->
 
-
-
-
 <!-- Modal Add Buku -->
 <div class="modal fade" id="modal-lg">
   <div class="modal-dialog modal-xl">
@@ -117,6 +114,7 @@
             </div>
           </div>
           <div class="col-md-4">
+           
             <div class="form-group">
               <label for="exampleInputEmail1">Judul Buku</label>
               <input type="text" name="post_judul" class="form-control" id="exampleInputEmail1" placeholder="judul buku">
@@ -155,16 +153,14 @@
               <input type="text" name="post_qty" class="form-control" id="exampleInputPassword1" placeholder="Tahun">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Jumlah</label>
-              <input type="text" class="form-control" name="post_hlm" id="exampleInputPassword1" placeholder="Jumlah">
+              <label for="exampleInputPassword1">Jumlah halaman</label>
+              <input type="text" class="form-control" name="post_hlm" id="exampleInputPassword1" placeholder="jumlah halaman">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Lokasi</label>
-              <input type="text" class="form-control"name="post_isbn" id="exampleInputPassword1" placeholder="Lokasi">
+              <label for="exampleInputPassword1">Rak</label>
+              <input type="text" class="form-control" name="post_rak" id="exampleInputPassword1" placeholder="jumlah halaman">
             </div>
-            <div class="form-group">
-              </select>
-            </div>
+           
           </div>
         </div>  
       </div>
@@ -238,50 +234,47 @@
           <div class="col-md-8">
             <div class="form-group">
               <label for="exampleInputEmail1">Judul Buku</label>
-              <input type="text" name="post_judul" class="form-control" id="exampleInputEmail1" placeholder="judul buku">
+              <input type="text" name="post_judul" class="form-control" id="exampleInputEmail1" placeholder="judul buku" value="<?= $value['judul']?>">
+            </div>
+           
+            <div class="form-group">
+              <label for="exampleInputPassword1">Tahun</label>
+              <input type="text" name="post_qty" class="form-control" id="exampleInputPassword1" placeholder="Tahun" value="<?= $value['tahun']?>">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Kategori Buku</label>
-              <select class="form-control" name="post_kategori" id="">
-                <option value="">Pilih Kategori</option>
-                <?php foreach ($kategori as $key => $value) { ?>
-                <option value="<?= $value['id']?>"><?= $value['nama']?></option>
+              <label for="exampleInputPassword1">Jumlah halaman</label>
+              <input type="text" class="form-control" name="post_hlm" id="exampleInputPassword1" placeholder="jumlah halaman" value="<?= $value['jumlah']?>">
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleInputPassword1">Penulis</label>
+              <select class="form-control" name="post_penulis" id="">
+                <option value="">Penulis</option>
+                <?php foreach ($penulis as $key => $penulis_value) { ?>
+                <option value="<?= $penulis_value['id']?>" <?= $penulis_value['id'] == $value['penulis_id'] ? 'selected' : '' ?>><?= $penulis_value['nama']?></option>
                 <?php }?>
               </select>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Penerbit</label>
               <select class="form-control" name="post_penerbit" id="">
-                <option value="">Pilih Penerbit</option>
-                <?php foreach ($penerbit as $key => $value) { ?>
-                <option value="<?= $value['id']?>"><?= $value['nama']?></option>
+                <option value="">Penerbit</option>
+                <?php foreach ($penerbit as $key => $penerbit_value) { ?>
+                <option value="<?= $penerbit_value['id']?>" <?= $penerbit_value['id'] == $value['penerbit_id'] ? 'selected' : '' ?>><?= $penerbit_value['nama']?></option>
                 <?php }?>
               </select>
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Penulis</label>
-              <select class="form-control" name="post_penulis" id="">
-                <option value="">Pilih Penulis</option>
-                <?php foreach ($penulis as $key => $value) { ?>
-                <option value="<?= $value['id']?>"><?= $value['nama']?></option>
+              <label for="exampleInputPassword1">Rak</label>
+              <input type="text" class="form-control" name="post_rak" id="exampleInputPassword1" placeholder="rak" value="<?= $value['lokasi']?>">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Kategori Buku</label>
+              <select class="form-control" name="post_kategori" id="">
+                <option value=""><?= $value['nama']?></option>
+                <?php foreach ($kategori as $key => $kategori_value) { ?>
+                <option value="<?= $kategori_value['id']?>" <?= $kategori_value['id'] == $value['kategori_id'] ? 'selected' : '' ?>><?= $kategori_value['nama']?></option>
                 <?php }?>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-4">        
-            <div class="form-group">
-              <label for="exampleInputPassword1">Tahun</label>
-              <input type="text" name="post_qty" class="form-control" id="exampleInputPassword1" placeholder="Tahun">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Jumlah</label>
-              <input type="text" class="form-control" name="post_hlm" id="exampleInputPassword1" placeholder="Jumlah">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Lokasi</label>
-              <input type="text" class="form-control"name="post_isbn" id="exampleInputPassword1" placeholder="Lokasi">
-            </div>
-            <div class="form-group">
               </select>
             </div>
           </div>
@@ -289,49 +282,10 @@
       </div>
       <div class="modal-footer justify-content-between">
         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-outline-success">Edit</button>
+        <button type="submit" class="btn btn-outline-success"  data-toggle="modal" data-target="#modal-hapus<?= $value['id']?>">Edit</button>
       </div>
       <?php echo form_close()?>
     </div>
   </div>
 </div>
 <?php } ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-  
